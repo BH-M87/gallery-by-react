@@ -5,7 +5,7 @@ import React from 'react';
 
 import ReactDOM from 'react-dom'
 
-//get image related data
+// get image related data
 import imageDatasJson from '../data/imageDatas.json';
 // let imageDatasJson = require('../data/imageDatas.json');
 
@@ -21,11 +21,15 @@ var imageDatas = genImageURL(imageDatasJson.imageDatas);
 /*get random value between low and high*/
 let getRangeRandom = (low, high) => Math.floor(Math.random() * (high - low) + low);
 
+/*get random angle between -30 degree and 30 degree*/
+let get30DegRandom = () => (Math.random() > 0.5 ? 1 : -1) * Math.random() * 30;
 
 class ImgFigure extends React.Component {
 	render() {
 		let styleObj = this.props.arrange.pos || {};
-
+		if (this.props.arrange.rotate) {
+			['MozTransform', 'MsTransform', 'WebkitTransform', 'transform'].forEach(value => styleObj[value] = 'rotate(' + this.props.arrange.rotate + 'deg)');
+		}
 		return (
 			<figure className="img-figure" style={styleObj}>
 				<img src={this.props.data.imageURL} alt={this.props.data.title}/>
@@ -44,6 +48,7 @@ class AppComponent extends React.Component {
 				left: 0,
 				top: 0
 			},
+			centerRotate: 0,
 			hPosRange: { //horizontal value range
 				leftSecX: [0, 0],
 				rightSecX: [0, 0],
@@ -60,7 +65,8 @@ class AppComponent extends React.Component {
 					pos: {
 						left: 0,
 						top: 0
-					}
+					},
+					rotate: 0
 				}*/
 			]
 		};
@@ -69,6 +75,7 @@ class AppComponent extends React.Component {
 		let imgsArrangeArr = this.state.imgsArrangeArr,
 			constant = this.constant,
 			centerPos = constant.centerPos,
+			centerRotate = constant.centerRotate,
 			hPosRange = constant.hPosRange,
 			vPosRange = constant.vPosRange,
 			hPosRangeLeftSecX = hPosRange.leftSecX,
@@ -83,27 +90,34 @@ class AppComponent extends React.Component {
 
 			imgsArrangeCenterArr = imgsArrangeArr.splice(centerIndex, 1);
 
-		//first, put the centerIndex picture in the middle of the stage
+		//first, put the centerIndex picture in the middle of the stage, with rotate
 		imgsArrangeCenterArr[0].pos = centerPos;
+		imgsArrangeCenterArr[0].rotate = centerRotate;
 
 		//get states of the picture on the top
 		topImgSpliceIndex = Math.floor(Math.random() * (imgsArrangeArr.length - topImgNum));
 		imgsArrangeTopArr = imgsArrangeArr.splice(topImgSpliceIndex, topImgNum);
 
 		//top pictures layout
-		imgsArrangeTopArr.forEach((value, index) => {
-			value.pos = {
-				top: getRangeRandom(vPosRangeTopY[0], vPosRangeTopY[1]),
-				left: getRangeRandom(vPosRangeX[0], vPosRangeX[1])
+		imgsArrangeTopArr.forEach((value) => {
+			value = {
+				pos: {
+					top: getRangeRandom(vPosRangeTopY[0], vPosRangeTopY[1]),
+					left: getRangeRandom(vPosRangeX[0], vPosRangeX[1])
+				},
+				rotate: get30DegRandom()
 			}
 		})
 
 		//left and right pictures layout
 		for (let i = 0, j = imgsArrangeArr.length, k = j / 2; i < j; i++) {
 			let hPosRangeLORX = i < k ? hPosRangeLeftSecX : hPosRangeRightSecX;
-			imgsArrangeArr[i].pos = {
-				top: getRangeRandom(hPosRangeY[0], hPosRangeY[1]),
-				left: getRangeRandom(hPosRangeLORX[0], hPosRangeLORX[1])
+			imgsArrangeArr[i] = {
+				pos: {
+					top: getRangeRandom(hPosRangeY[0], hPosRangeY[1]),
+					left: getRangeRandom(hPosRangeLORX[0], hPosRangeLORX[1])
+				},
+				rotate: get30DegRandom()
 			}
 		}
 
@@ -162,7 +176,8 @@ class AppComponent extends React.Component {
 					pos: {
 						left: 0,
 						top: 0
-					}
+					},
+					rotate: 0
 				}
 			}
 			imgFigures.push(<ImgFigure key={index} ref={'imgFigure' + index} data={value} arrange={this.state.imgsArrangeArr[index]}/>)
