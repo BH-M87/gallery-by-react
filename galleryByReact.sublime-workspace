@@ -1,0 +1,1609 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"stop",
+				"stopPropagation(): void\tEvent"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"cur",
+				"cur\tcursor: ${pointer};"
+			],
+			[
+				"tra",
+				"transform\tStyle CSS"
+			],
+			[
+				"pr",
+				"props\tReact: this.props."
+			],
+			[
+				"style",
+				"styleObj"
+			],
+			[
+				"center",
+				"centerRotate"
+			],
+			[
+				"cent",
+				"centerRotate"
+			],
+			[
+				"cen",
+				"centerRotate"
+			],
+			[
+				"react",
+				"react-dom\t(package.json)"
+			],
+			[
+				"React",
+				"ReactDom"
+			],
+			[
+				"imgsArr",
+				"imgsArrangeArr"
+			],
+			[
+				"topI",
+				"topImgSpliceIndex"
+			],
+			[
+				"hPosRang",
+				"hPosRange"
+			],
+			[
+				"hP",
+				"hPosRangeRightSecX"
+			],
+			[
+				"hPosRangeL",
+				"hPosRangeLeftSecX"
+			],
+			[
+				"vPosR",
+				"vPosRangeX"
+			],
+			[
+				"rando",
+				"random(): number\tMath"
+			],
+			[
+				"imgsA",
+				"imgsArrangeCenterArr"
+			],
+			[
+				"Math",
+				"Math.random(): number\tMath"
+			],
+			[
+				"right",
+				"rightSecX"
+			],
+			[
+				"contant",
+				"constant"
+			],
+			[
+				"halfS",
+				"halfStageH"
+			],
+			[
+				"halfIm",
+				"halfImgH"
+			],
+			[
+				"rig",
+				"rightSecX"
+			],
+			[
+				"half",
+				"halfStageW"
+			],
+			[
+				"left",
+				"leftSecX"
+			],
+			[
+				"scroll",
+				"scrollHeight"
+			],
+			[
+				"img",
+				"imgFigure"
+			],
+			[
+				"exp",
+				"exports\t(defaults.js)"
+			],
+			[
+				"mod",
+				"module\t(defaults.js)"
+			],
+			[
+				"image",
+				"imageDatas\t(Main.js)"
+			],
+			[
+				"imageData",
+				"imageDatasArr\t(Main.js)"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"ti",
+				"title\t(index.html)"
+			],
+			[
+				"contro",
+				"controllerUnits"
+			],
+			[
+				"fi",
+				"figure"
+			],
+			[
+				"ren",
+				"render"
+			],
+			[
+				"file",
+				"fileName\t(imageDatas.json)"
+			],
+			[
+				"fore",
+				"forEach( callbackfn: Function, thisArg?: any ): Array\tArray"
+			],
+			[
+				"bac",
+				"backgroundColor\tStyle CSS"
+			],
+			[
+				"reverse",
+				"reverse(): Array\tArray"
+			],
+			[
+				"is",
+				"isReverse"
+			],
+			[
+				"boa",
+				"boardRow"
+			],
+			[
+				"render",
+				"renderSquare"
+			],
+			[
+				"board",
+				"boardRows"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"font",
+				"font-weight\t(index.css)"
+			],
+			[
+				"slice",
+				"slice( start: int, end: int ): Array\tArray"
+			],
+			[
+				"step",
+				"stepNumber"
+			],
+			[
+				"x",
+				"xIsNext"
+			],
+			[
+				"rest",
+				"restFns"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"stetime",
+				"setTimeout( handler: any, timeout?: long, arguments...: any ): long\tWindow"
+			],
+			[
+				"arg",
+				"argument"
+			],
+			[
+				"if",
+				"if()"
+			],
+			[
+				"ar",
+				"argument"
+			],
+			[
+				"retu",
+				"retuenFn"
+			],
+			[
+				"sub",
+				"substr\t(util.js)"
+			],
+			[
+				"sear",
+				"search\t(util.js)"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"cell",
+				"cell-border\t(abnormalArrivalTimeStatistic.ftl)"
+			],
+			[
+				"PLEG",
+				"PLEG_TM_ATD"
+			],
+			[
+				"UN",
+				"UN_SCH_FL_COUNT\t(executiveRate.js)"
+			],
+			[
+				"per",
+				"percentFormatter\t(util.js)"
+			],
+			[
+				"f",
+				"fln"
+			],
+			[
+				"start",
+				"startTime"
+			],
+			[
+				"immedi",
+				"stopImmediatePropagation(): \tjQuery - Events > Event Object"
+			],
+			[
+				"AC",
+				"ACT_FL_COUNT\t(executiveRate.js)"
+			],
+			[
+				"PLAN",
+				"PLAN_FL_COUNT\t(executiveRate.js)"
+			],
+			[
+				"ROUT",
+				"ROUTE_TIME\t(executiveRate.js)"
+			],
+			[
+				"no-f",
+				"no-foot-border\t(style.css)"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"col",
+				"col-md-12\t(dailyReport.ftl)"
+			],
+			[
+				"border",
+				"border-collapse"
+			],
+			[
+				"result",
+				"result.datas"
+			],
+			[
+				"SUM",
+				"SUM_FLIGHT\t(baseFlightStatistics.js)"
+			],
+			[
+				"class",
+				"classifiedData\t(baseFlightStatistics.js)"
+			],
+			[
+				"re",
+				"returnData"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"value",
+				"valueOf(): number\tDate"
+			],
+			[
+				"returnDa",
+				"returnDatas"
+			],
+			[
+				"cD",
+				"cData"
+			],
+			[
+				"P",
+				"PLEG_TM_AT"
+			],
+			[
+				"datas",
+				"datasLength"
+			],
+			[
+				"len",
+				"length: int\tArray"
+			],
+			[
+				"funct",
+				"function without name"
+			],
+			[
+				"getC",
+				"getColumns"
+			],
+			[
+				"end",
+				"endTime"
+			],
+			[
+				"valu",
+				"valueOf(): number\tDate"
+			],
+			[
+				"selec",
+				"select\t(delayTime.ftl)"
+			],
+			[
+				"combo",
+				"combobox"
+			],
+			[
+				"com",
+				"comboBox\t(style.css)"
+			],
+			[
+				"text",
+				"textbox\t(delayTime.js)"
+			],
+			[
+				"G",
+				"GUARANTEE_NAME"
+			],
+			[
+				"cont",
+				"continue;"
+			],
+			[
+				"dep",
+				"depItem"
+			],
+			[
+				"ABNO",
+				"ABNORM_FLTCT"
+			],
+			[
+				"AVG",
+				"AVG_DLY_TIME"
+			],
+			[
+				"return",
+				"returnItem"
+			],
+			[
+				"arr",
+				"arrItem"
+			],
+			[
+				"push",
+				"push( items...: any ): Array\tArray"
+			],
+			[
+				"ex",
+				"extends\t(MorningHandoverAction.java)"
+			],
+			[
+				"fun",
+				"function with name"
+			],
+			[
+				"init",
+				"initTable\t(delayTime.js)"
+			],
+			[
+				"FOUR",
+				"FOUR_UP_DLY_FLTCT"
+			],
+			[
+				"No",
+				"NORMAL_RATE"
+			],
+			[
+				"plan",
+				"planResult"
+			],
+			[
+				"De",
+				"DELAY_TIME"
+			],
+			[
+				"DELAY_TIME",
+				"SUM_DELAY_TIME"
+			],
+			[
+				"AL",
+				"AL_NAME_CHN"
+			],
+			[
+				"de",
+				"delayTime.js\t(delayTime.ftl)"
+			],
+			[
+				"console",
+				"console.log()"
+			],
+			[
+				"functio",
+				"function without name"
+			],
+			[
+				"functi",
+				"function with name"
+			],
+			[
+				"click",
+				"description-onclick\tWindow"
+			],
+			[
+				"stopI",
+				"stopImmediatePropagation(): \tjQuery - Events > Event Object"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"date",
+				"dateBox\t(delayTime.ftl)"
+			],
+			[
+				"search",
+				"searchBtn"
+			],
+			[
+				"col-md-",
+				"col-md-offset-1"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"col-md-offset",
+				"col-md-offset-6\t(gridSystem.css)"
+			],
+			[
+				"libs",
+				"libs/"
+			],
+			[
+				"total",
+				"totalSum"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/styles/App.scss",
+			"settings":
+			{
+				"buffer_size": 1643,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cfg/defaults.js",
+			"settings":
+			{
+				"buffer_size": 1461,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/xuliu/Desktop/ifconfig.txt",
+			"settings":
+			{
+				"buffer_size": 2989,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Business & Personal/DaiVB/config files/gen2_env - Copy/test/tier2/gen2_test.lb_wso2.httpd.conf.dump",
+			"settings":
+			{
+				"buffer_size": 17035,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/xuliu/Desktop/application.yml",
+			"settings":
+			{
+				"buffer_size": 704,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/Workspaces/practice/src/test.java",
+			"settings":
+			{
+				"buffer_size": 220,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/xuliu/Desktop/s_sec.out",
+			"settings":
+			{
+				"buffer_size": 55352,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "NullPointerException。 \n2017-02-09 06:44:38,741 [ INFO]: (Md5HttpRequestChecker) - queryWithoutMd5: source=autonavi_web&hl=zh&account=18611721513&name=%E9%AB%98%E5%BE%B7&street=%E9%98%9C%E9%80%9A%E4%B8%9C%E5%A4%A7%E8%A1%97%E5%85%AD%E5%8F%B7&province=&city=%E5%8C%97%E4%BA%AC%E5%B8%82&latitude=39.989776&longitude=116.48069&timestamp=1486619078\n2017-02-09 06:44:38,742 [ INFO]: (Md5HttpRequestChecker) - query text without md5: source=autonavi_web&hl=zh&account=18611721513&name=%E9%AB%98%E5%BE%B7&street=%E9%98%9C%E9%80%9A%E4%B8%9C%E5%A4%A7%E8%A1%97%E5%85%AD%E5%8F%B7&province=&city=%E5%8C%97%E4%BA%AC%E5%B8%82&latitude=39.989776&longitude=116.48069&timestamp=1486619078\n2017-02-09 06:44:38,742 [ INFO]: (Md5Checker) - textForMd5: source=autonavi_web&hl=zh&account=18611721513&name=%E9%AB%98%E5%BE%B7&street=%E9%98%9C%E9%80%9A%E4%B8%9C%E5%A4%A7%E8%A1%97%E5%85%AD%E5%8F%B7&province=&city=%E5%8C%97%E4%BA%AC%E5%B8%82&latitude=39.989776&longitude=116.48069&timestamp=14866190785efa6943f28b38f3a1c39ac01a478984\n2017-02-09 06:44:38,742 [ INFO]: (Md5Checker) - calculatedMd5: 69d325ae8ffb601988567205169258b6\n2017-02-09 06:44:38,742 [ INFO]: (TimestampHttpRequestChecker) - starting check timestamp, the request timestamp is :1486619078\n2017-02-09 06:44:38,742 [ INFO]: (TimestampHttpRequestChecker) - convert timestamp as  :1486619078\n2017-02-09 06:44:38,743 [ INFO]: (GetForwarder) - forwardUrl: [http://dai1p9al:8086/web_gateway/s2c/s2c.html?source=autonavi_web&hl=zh&account=18611721513&name=%E9%AB%98%E5%BE%B7&street=%E9%98%9C%E9%80%9A%E4%B8%9C%E5%A4%A7%E8%A1%97%E5%85%AD%E5%8F%B7&province=&city=%E5%8C%97%E4%BA%AC%E5%B8%82&latitude=39.989776&longitude=116.48069&timestamp=1486619078&sig=69d325ae8ffb601988567205169258b6, http://dai2pgal:8086/web_gateway/s2c/s2c.html?source=autonavi_web&hl=zh&account=18611721513&name=%E9%AB%98%E5%BE%B7&street=%E9%98%9C%E9%80%9A%E4%B8%9C%E5%A4%A7%E8%A1%97%E5%85%AD%E5%8F%B7&province=&city=%E5%8C%97%E4%BA%AC%E5%B8%82&latitude=39.989776&longitude=116.48069&timestamp=1486619078&sig=69d325ae8ffb601988567205169258b6]\n2017-02-09 06:44:38,751 [ INFO]: (RequestForwarder) - start checking int checking query vehicle prccess, the veh queried info: http://192.168.5.169:9804/sendtocar-service/sendtocar/vehicle, \n2017-02-09 06:44:38,917 [ INFO]: (RequestForwarder) - end checking int checked query vehicle prccess, the veh queried info: http://192.168.5.169:9804/sendtocar-service/sendtocar/vehicle, {\"total\":3,\"results\":[{\"vin\":\"RDCNNTG52TEST0001\",\"active\":\"1\",\"vehicle_info_enum\":\"3\"},{\"vin\":\"DHA218123ND000001\",\"active\":\"1\",\"vehicle_info_enum\":\"1\"},{\"vin\":\"RDCNNTG55TEST0001\",\"active\":\"1\",\"vehicle_info_enum\":\"3\"}],\"message\":\"ok\",\"status\":0}\n2017-02-09 06:44:38,918 [ INFO]: (RequestForwarder) - Starting int send poi prccess, send poi info: http://192.168.5.169:9804/sendtocar-service/sendtocar/sendpoitocar, source=autonavi_web&hl=zh&account=18611721513&name=高德&street=阜通东大街六号&province=&city=北京市&latitude=39.989776&longitude=116.48069&timestamp=1486619078&sig=69d325ae8ffb601988567205169258b6\n2017-02-09 06:44:38,920 [ERROR]: (RequestForwarder) - error processing request\njava.lang.NullPointerException\n     at com.siemens.sis.s2cfilter.controller.RequestForwarder.proccess(RequestForwarder.java:246)\n     at com.siemens.sis.s2cfilter.controller.RequestForwarder.forwardRequestToUrls(RequestForwarder.java:187)\n     at com.siemens.sis.s2cfilter.controller.GetForwarder.forwardRequest(GetForwarder.java:36)\n     at com.siemens.sis.s2cfilter.controller.RequestForwarder.forward(RequestForwarder.java:106)\n     at com.siemens.sis.s2cfilter.controller.Send2CarFilterController.get(Send2CarFilterController.java:24)\n     at com.siemens.sis.s2cfilter.controller.Send2CarDaiVBFilterController.get(Send2CarDaiVBFilterController.java:25)\n     at sun.reflect.GeneratedMethodAccessor768.invoke(Unknown Source)\n     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)\n     at java.lang.reflect.Method.invoke(Method.java:597)\n     at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:177)\n     at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:446)\n     at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:434)\n     at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)\n     at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)\n     at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:969)\n     at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:860)\n     at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)\n     at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:845)\n     at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)\n     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)\n     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)\n     at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)\n     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)\n     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)\n     at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)\n     at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)\n     at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)\n     at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)\n     at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)\n     at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)\n     at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)\n     at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)\n     at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:200)\n     at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)\n     at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)\n     at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)\n     at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)\n     at java.lang.Thread.run(Thread.java:662)\n",
+			"settings":
+			{
+				"buffer_size": 6822,
+				"line_ending": "Windows",
+				"name": "NullPointerException。"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"git",
+				"GitGutter: Show Comparing Against"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"gitg",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 296.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/DevWorkspaces/Github/galleryByReact",
+		"/D/DevWorkspaces/Github/galleryByReact/cfg",
+		"/D/DevWorkspaces/Github/galleryByReact/src",
+		"/D/DevWorkspaces/Github/galleryByReact/src/components",
+		"/D/DevWorkspaces/Github/galleryByReact/src/styles"
+	],
+	"file_history":
+	[
+		"/D/Business & Personal/DaiVB/source code/daivb-versions/components.php",
+		"/D/Business & Personal/DaiVB/certificates/MBIIS Admin Service Certificate/password DW123abc1400.txt",
+		"/C/Users/xuliu/Desktop/send2CarGatewayTestCase.txt",
+		"/D/Business & Personal/DaiVB/config files/gen2_env - Copy/test/tier2/gen2_test.lb_wso2.httpd.conf",
+		"/D/Workspaces/Wonders/wsaf/wsaf-workflow/src/main/java/com/wonders/frame/workflow/util/RestAPIUtilForPost.java",
+		"/C/Users/xuliu/Desktop/regStartLog.txt",
+		"/C/Users/xuliu/Desktop/s_reg.out",
+		"/C/Users/xuliu/Desktop/versionTool.xml",
+		"/D/DevWorkspaces/Github/galleryByReact/src/components/Main.js",
+		"/D/DevWorkspaces/Github/galleryByReact/src/styles/App.scss",
+		"/D/DevWorkspaces/Github/galleryByReact/README.md",
+		"/C/Users/xuliu/Desktop/Sto-0101-DE-Release-Test/Payload/Sto-0101-DE.app/previewImageGallery_inside_10.png",
+		"/C/Users/xuliu/Desktop/Sto-0101-DE-Release-Test/Payload/Sto-0101-DE.app/iphone_updatescreen_background.png",
+		"/D/DevWorkspaces/Github/ticTacToe/src/App.js",
+		"/D/DevWorkspaces/Github/galleryByReact/cfg/defaults.js",
+		"/D/DevWorkspaces/Github/galleryByReact/package.json",
+		"/D/DevWorkspaces/Github/galleryByReact/src/index.html",
+		"/D/DevWorkspaces/Github/galleryByReact/src/data/imageDatas.json",
+		"/D/DevWorkspaces/Github/galleryByReact/src/data/imageDatas - Copy.json",
+		"/D/DevWorkspaces/Github/ticTacToe/README.md",
+		"/D/DevWorkspaces/Github/galleryByReact/src/data/imageDatas.js",
+		"/D/DevWorkspaces/Github/galleryByReact/.editorconfig",
+		"/C/Users/xuliu/AppData/Roaming/Sublime Text 3/Packages/MultiFill/Default (Windows).sublime-keymap",
+		"/C/Users/xuliu/AppData/Roaming/Sublime Text 3/Packages/SQLExec/Default (Windows).sublime-keymap",
+		"/C/Users/xuliu/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Default (Windows).sublime-keymap",
+		"/C/Users/xuliu/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/Default.sublime-keymap",
+		"/C/Users/xuliu/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/xuliu/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/xuliu/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/xuliu/AppData/Roaming/Sublime Text 3/Packages/JavaScript Completions/javascript_completions/JavaScript-Completions.sublime-settings",
+		"/C/Users/xuliu/AppData/Roaming/Sublime Text 3/Packages/JavaScript Completions/helper/helper.sublime-settings",
+		"/C/Users/xuliu/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/Users/xuliu/Desktop/README.md",
+		"/D/Business & Personal/DaiVB/config files/gen2_svn/int_tier2/gen2_int.lb_wso2.httpd.conf",
+		"/D/Business & Personal/DaiVB/config files/gen2_env/test/tier2/gen2_test.lb_wso2.httpd.conf.dump",
+		"/D/Business & Personal/DaiVB/config files/gen2_svn/int_intra/gen2_int.mpls.httpd.conf",
+		"/D/Business & Personal/DaiVB/config files/gen2_svn/int_intra/gen2_int.webintra.httpd.conf",
+		"/D/Business & Personal/DaiVB/config files/gen2_svn/int_intra/inc.gen2.apache24.httpd.conf",
+		"/D/Business & Personal/DaiVB/config files/gen2_svn/int_intra/inc.gen2_int.webintra_vts.httpd.conf",
+		"/D/Business & Personal/DaiVB/config files/gen2_svn/int_intra/mbiisif.intintra.__dvb-aqua-int.app.corpintra.net__.httpd.conf",
+		"/D/DevWorkspaces/Github/galleryByReact/src/config/dev.js",
+		"/D/Business & Personal/DaiVB/config files/gen2_env - Copy/test/tier2/gen2_test.lb_wso2.httpd.conf.dump",
+		"/D/Business & Personal/DaiVB/config files/gen2_env/test/tier2/gen2_test.lb_wso2.httpd.conf",
+		"/D/DevWorkspaces/Github/galleryByReact/test/loadtests.js",
+		"/D/Business & Personal/DaiVB/config files/gen2_svn/int_tier2/mime.types",
+		"/D/Business & Personal/DaiVB/config files/gen2_env/int/tier2/gen2_int.lb_wso2.httpd.conf",
+		"/D/Business & Personal/DaiVB/config files/gen2_env/int/intra/mbiisif.intintra.__dvb-vva-int.app.corpintra.net__.httpd.conf",
+		"/D/DevWorkspaces/Github/ticTacToe/.gitignore",
+		"/C/Users/xuliu/AppData/Roaming/Sublime Text 3/Packages/ESLint/README.md",
+		"/D/DevWorkspaces/Github/ticTacToe/package.json",
+		"/D/DevWorkspaces/ticTacToe/src/index.css",
+		"/D/DevWorkspaces/ticTacToe/src/index.js",
+		"/D/DevWorkspaces/ticTacToe/public/index.html",
+		"/D/DevWorkspaces/ticTacToe/src/App.js",
+		"/D/DevWorkspaces/ticTacToe/src/App.css",
+		"/C/Users/xuliu/AppData/Roaming/Sublime Text 3/Packages/User/ESLint.sublime-settings",
+		"/C/Users/xuliu/AppData/Roaming/Sublime Text 3/Packages/ESLint/ESLint.sublime-settings",
+		"/C/Users/xuliu/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/D/BaiduYun/IT/CSS/Learning Material/网页布局基础/case2/index.html",
+		"/D/BaiduYun/IT/CSS/Learning Material/网页布局基础/case2/css/style.css",
+		"/C/Users/xuliu/Desktop/C2X.error",
+		"/C/Users/xuliu/Desktop/car2x-master-1.4.4/car2x-common-business/src/main/java/com/daimler/daivb/car2x/common/business/services/util/Car2XJAXBHelper.java",
+		"/C/Users/xuliu/Desktop/car2x-master-1.4.4/car2x-publisher-enduser/car2xpublisher-enduser-app/car2xpublisher-enduser-service/src/main/java/com/daimler/daivb/car2x/eventpublisher/atmosphere/Car2XSpringGenericAtmosphereFilter.java",
+		"/C/Users/xuliu/Desktop/car2x-master-1.4.4/car2x-publisher-enduser/car2xpublisher-enduser-app/car2xpublisher-enduser-service/src/main/java/com/daimler/daivb/car2x/eventpublisher/atmosphere/Car2XSpringAtmosphereFilter.java",
+		"/C/Users/xuliu/Desktop/car2x-master-1.4.4/car2x-publisher-enduser/car2xpublisher-enduser-app/car2xpublisher-enduser-service/src/main/java/com/daimler/daivb/car2x/eventpublisher/bs/AtmosphereResponseFactory.java",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/libs/bootstrap/dist/css/bootstrap.css",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/libs/metronic/global/plugins/bootstrap-table/locale/bootstrap-table-uk-UA.js.dump",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/libs/jquery-ui/ui/i18n/datepicker-sr-SR.js.dump",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/operationReports/executiveRate.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/util.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/views/pages/operationReports/blockTime.ftl",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/views/pages/operationReports/delayTime.ftl",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/operationReports/delayTime.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/src/com/taocares/sia/sas/reports/morningHandover/MorningHandoverAction.java",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/views/pages/operationReports/morningHandover.ftl",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/stylesheets/style.css",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/operationReports/dailyReport.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/src/com/taocares/sia/sas/reports/dailyReport/DailyReportAction.java",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/DbScripts/Business/dailyReport.sql",
+		"/C/Users/xuliu/Desktop/flightSeason.txt.dump",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/operationReports/flightSeason.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/views/pages/operationReports/flightSeason.ftl",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/chartTemplates.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/DbScripts/Business/morningHandover.sql",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/operationReports/morningHandover.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/DbScripts/Business/baseFlightStatistics.sql",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/src/com/taocares/sia/sas/reports/flightStatistics/FlightStatisticsAction.java",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/operationReports/flightStatistics.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/views/pages/operationReports/flightStatistics.ftl",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/views/pages/operationReports/positionDistribution.ftl",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/operationReports/baseFlightStatistics.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/operationReports/positionDistribution.js",
+		"/C/Users/xuliu/Desktop/flightSeason.txt",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/DbScripts/Business/flightStatistics.sql",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/DbScripts/Business/blockTime.sql",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/DbScripts/Business/executiveRate.sql",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/src/com/taocares/sia/sas/reports/flightInfo/FlightInfoAction.java",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/libs/jquery-ui/ui/i18n/datepicker-lb.js.dump",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/src/com/taocares/sia/sas/reports/blockTime/BlockTimeAction.java",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/operationReports/blockTime.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/views/pages/operationReports/abnormalArrivalTimeStatistic.ftl",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/views/pages/operationReports/baseFlightStatistics.ftl",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/views/pages/operationReports/executiveRate.ftl",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/libs/datatables/datatables.css",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/views/pages/operationReports/waitingTwoHours.ftl",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/src/com/taocares/sia/sas/reports/executiveRate/ExecutiveRateAction.java",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/DbScripts/Business/waitingTwoHours.sql",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/operationReports/planeTypeStats.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/libs/metronic/global/plugins/bootstrap-table/locale/bootstrap-table-ar-SA.js.dump",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/src/com/taocares/sia/sas/reports/departualDelayFlights/DepartualDelayFlightsAction.java",
+		"/C/Users/xuliu/Desktop/20161123/util.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/views/pages/operationReports/dailyReport.ftl",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/views/pages/operationReports/hourlySortiesStatistic.ftl",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/stylesheets/operationReports/hourlySortiesStatistic.css",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/operationReports/hourlySortiesStatistic.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/libs/datatables/DataTables-1.10.12/js/dataTables.bootstrap.js.dump",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/src/com/taocares/sia/sas/reports/positionDistribution/PositionDistributionAction.java",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/DbScripts/Business/positionDistribution.sql",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/operationReports/flightRegularStats.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/src/com/taocares/sia/sas/reports/baseFlightStatistics/BaseFlightStatisticsAction.java",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/src/com/tsystems/aviation/szxreports/baseFlightStatistics/BaseFlightStatisticsAction.java",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/operationReports/delayReasonStruct.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/operationReports/departualDelayFlights.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/operationReports/flightDepartRegularRate.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/operationReports/flightOriginatingDepartRegularRate.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/operationReports/flightsCountStats.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/operationReports/flightSeasonHourlyStats.js",
+		"/D/DevWorkspaces/Aviation/SZAirportReports/SZairportReports/WebContent/public/js/operationReports/hourlyFlightADstats.js"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\Business & Personal\\DaiVB\\source code\\daivb-versions",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\public\\js\\operationReports",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\public\\js",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\views\\pages\\operationReports",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\public\\js\\operationReports",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\src\\com\\taocares\\sia\\sas\\reports",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\public\\js\\operationReports",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\views\\pages\\operationReports",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\public\\libs",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\public\\libs\\jquery-easyui",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\views\\pages",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\public\\js",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\public\\libs",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\public\\js\\operationReports",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\public\\libs",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\public\\js\\operationReports",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\public\\js",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\public\\libs",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\public\\js\\operationReports",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\views\\pages\\operationReports",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\public\\js",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\views\\includes",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\public\\js\\operationReports",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\views\\pages",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\public\\js\\operationReports",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\views\\includes",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\views\\includes",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\public\\js\\operationReports",
+			"D:\\DevWorkspaces\\Aviation\\SZAirportReports\\SZairportReports\\WebContent\\views\\includes",
+			"D:\\Aviation\\Aviation"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"microservice_servers",
+			"ONE-TIME-PASSWORD",
+			"project.version",
+			"getenvironments",
+			"curl_multi_exec",
+			"curl_multi_info_read",
+			"isenvdisabled",
+			"172.25.2.146",
+			"VHP",
+			"VEHICLEHOMEPAGE",
+			"microservice_servers",
+			"getmicroservices",
+			"192.168.5.48",
+			"VEHICLEHOMEPAGE",
+			"test-data-service",
+			"VPC",
+			"VEHICLEHOMEPAGE",
+			"$services",
+			"service",
+			"home",
+			"vhp",
+			"VEHICLEHOMEPAGE",
+			"ReactDom",
+			"var",
+			"getRangeRandow",
+			"ceil",
+			"stage",
+			"'",
+			"\"",
+			"civic",
+			"filename",
+			"module.exports= {\n\t'imageDatas': [{\n\t\t'fileName': 'Civic1.JPG',\n\t\t'title': 'Honda Civic',\n\t\t'description': 'Earth Dream'\n\t}, {\n\t\t'fileName': 'Civic2.JPG',\n\t\t'title': 'Honda Civic',\n\t\t'description': 'Earth Dream'\n\t}, {\n\t\t'fileName': 'Atenza1.JPG',\n\t\t'title': 'Mazda Atenza',\n\t\t'description': 'Zoom Zoom'\n\t}, {\n\t\t'fileName': 'Atenza2.JPG',\n\t\t'title': 'Mazda Atenza',\n\t\t'description': 'Zoom Zoom'\n\t}, {\n\t\t'fileName': 'Axela1.JPG',\n\t\t'title': 'Mazda Axela',\n\t\t'description': 'Zoom Zoom'\n\t}, {\n\t\t'fileName': 'Axela2.JPG',\n\t\t'title': 'Mazda Axela',\n\t\t'description': 'Zoom Zoom'\n\t}, {\n\t\t'fileName': 'Axela3.JPG',\n\t\t'title': 'Mazda Axela',\n\t\t'description': 'Zoom Zoom'\n\t}, {\n\t\t'fileName': 'Axela4.JPG',\n\t\t'title': 'Mazda Axela',\n\t\t'description': 'Zoom Zoom'\n\t}, {\n\t\t'fileName': 'Axela5.JPG',\n\t\t'title': 'Mazda Axela',\n\t\t'description': 'Zoom Zoom'\n\t}, {\n\t\t'fileName': 'Axela6.JPG',\n\t\t'title': 'Mazda Axela',\n\t\t'description': 'Zoom Zoom'\n\t}, {\n\t\t'fileName': 'Axela7.JPG',\n\t\t'title': 'Mazda Axela',\n\t\t'description': 'Zoom Zoom'\n\t}, {\n\t\t'fileName': 'cx41.JPG',\n\t\t'title': 'Mazda CX-4',\n\t\t'description': 'Zoom Zoom'\n\t}, {\n\t\t'fileName': 'cx42.JPG',\n\t\t'title': 'Mazda CX-4',\n\t\t'description': 'Zoom Zoom'\n\t}]\n}\n",
+			"\"",
+			"jpg",
+			"Heaven of time",
+			"Here he comes speed racer.",
+			"Heaven of time",
+			"Here he comes speed racer.",
+			"Heaven of time",
+			"Axela",
+			".jpg",
+			"jpg",
+			".jpg",
+			"loader",
+			"sass",
+			"item",
+			"{\n    \"fileName\": \"13.jpg\",\n    \"title\": \"Heaven of time\",\n    \"description\":\"Here he comes speed racer.\"\n},",
+			"jpg",
+			".jpg",
+			"devServer",
+			"addMiddleware",
+			"index",
+			"scripts",
+			"index",
+			"llation option is che",
+			"let",
+			"props",
+			"state",
+			"project.build.directory",
+			"${project.build.directory}",
+			"retuenFn",
+			"arguments",
+			"url = ",
+			"drilldown",
+			"@media",
+			"},{",
+			"<caption>",
+			"SCH_EXE_COUNT",
+			"airline",
+			"Airline",
+			"airline",
+			"HourlySortiesTable",
+			"cell-border",
+			"DELAY_FLT_NO",
+			"tmpDate",
+			"result.",
+			"H_G",
+			"+\"",
+			"returnDatas",
+			"data",
+			"E_AREA_06",
+			"DIRECTION",
+			"AREA_",
+			"table",
+			"dataSrc: func",
+			"dataSrc:func",
+			"classifiedData",
+			"classifyData",
+			"returnData",
+			"defaultReturnData",
+			"{}",
+			"returnData",
+			"trunc",
+			"?\n",
+			"data: function",
+			"\"",
+			"comboBox",
+			"airline",
+			"%?%",
+			"AVG_DELAY_TIME",
+			"null",
+			"=:endTime",
+			"=:startTime",
+			"PLEG_TM_ATD",
+			"PLEG_TM_PTD",
+			"border",
+			"-border",
+			"border",
+			"span",
+			"h5",
+			"td",
+			" class=\"col-md-10\"",
+			"class=\"col-md-2\"",
+			"planResult",
+			"DIRECTION",
+			"\"",
+			"div",
+			"'",
+			"=:endTime",
+			"=:startTime",
+			"？",
+			"=:endTime",
+			"=:startTime",
+			"  ",
+			"as",
+			"left",
+			"BETWEEN =:startTime and =:endTime and ",
+			"then 1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			"'",
+			"\"",
+			"?",
+			"？",
+			"",
+			"[]",
+			".*",
+			"[]",
+			"\"/\"",
+			"h5",
+			"seriesData",
+			"table",
+			"chart",
+			"headerNum",
+			"headerCellNum",
+			"headerRowNum",
+			"headerNum",
+			"chartJson",
+			"<#",
+			"\t",
+			"<#",
+			"../public/libs",
+			"",
+			"../public/libs/metronic",
+			"../public",
+			"../../public",
+			"public",
+			"/public/libs",
+			"/includes",
+			"</#macro>",
+			"",
+			"/libs/metronic/",
+			"delayTime5",
+			"delayTime4",
+			"delayTime3",
+			"delayTime2",
+			"delayTime1",
+			".col-md-3",
+			"_processInfoEntity",
+			"",
+			"col-md",
+			"processInfo",
+			"'",
+			"extends ../layout\n\nblock content\n\t.container\n\t\t.row\n\t\t\ttable.table.table-hover.table-bordered\n\t\t\t\tthead\n\t\t\t\t\ttr\n\t\t\t\t\t\tth 电影名字\t\n\t\t\t\t\t\tth 导演\n\t\t\t\t\t\tth 国家\n\t\t\t\t\t\tth 上映年份\n\t\t\t\t\t\t//th 录入时间\n\t\t\t\t\t\tth 查看\n\t\t\t\t\t\tth 更新\n\t\t\t\t\t\tth 删除\n\t\t\t\t\ttbody\n\t\t\t\t\t\teach item in movies\n\t\t\t\t\t\t\ttr(class=\"item-id-#{item._id}\")\n\t\t\t\t\t\t\t\ttd #{item.title}\n\t\t\t\t\t\t\t\ttd #{item.doctor}\n\t\t\t\t\t\t\t\ttd #{item.country}\n\t\t\t\t\t\t\t\ttd #{item.year}\n\t\t\t\t\t\t\t\t//td #{moment(item.meta.createdAT).format('MM/DD/YYYY')}\n\t\t\t\t\t\t\t\ttd \n\t\t\t\t\t\t\t\t\ta(target=\"_blank\",href=\"../detail/#{item._id}\") 查看\n\t\t\t\t\t\t\t\ttd \n\t\t\t\t\t\t\t\t\ta(target=\"_blank\",href=\"../admin/update/#{item._id}\") 修改\n\t\t\t\t\t\t\t\ttd \n\t\t\t\t\t\t\t\t\tbutton.btn.btn-danger.del(type=\"button\",data-id=\"#{item._id}\") 删除\n\tscript(src=\"/js/admin.js\")\n\n\n\t\t\t\t\t\t\t\n",
+			"onDeleteAddress",
+			"icon.png",
+			"planeIcon",
+			"defaultSpeed"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/styles/App.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1643,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								732,
+								732
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 924.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "cfg/defaults.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								686,
+								686
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 726.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/xuliu/Desktop/ifconfig.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2989,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
+							"tab_size": 5,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 468.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/Business & Personal/DaiVB/config files/gen2_env - Copy/test/tier2/gen2_test.lb_wso2.httpd.conf.dump",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17035,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14850,
+								17034
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8962.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/xuliu/Desktop/application.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 704,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								613,
+								613
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/D/Workspaces/practice/src/test.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								89
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/xuliu/Desktop/s_sec.out",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 55352,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16203,
+								16180
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4246.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2987,
+								2990
+							]
+						],
+						"settings":
+						{
+							"auto_name": "NullPointerException。",
+							"is_init_dirty_state": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 5,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 110.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "galleryByReact.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"car2xspringatmospherefilter",
+				"car2x-publisher-enduser\\car2xpublisher-enduser-app\\car2xpublisher-enduser-service\\src\\main\\java\\com\\daimler\\daivb\\car2x\\eventpublisher\\atmosphere\\Car2XSpringAtmosphereFilter.java"
+			],
+			[
+				"inde",
+				"routes\\index.js"
+			],
+			[
+				"chart",
+				"WebContent\\public\\js\\chartTemplates.js"
+			],
+			[
+				"boot",
+				"WebContent\\public\\libs\\bootstrap\\dist\\css\\bootstrap.css"
+			],
+			[
+				"util",
+				"WebContent\\public\\js\\util.js"
+			],
+			[
+				"boots",
+				"WebContent\\public\\libs\\bootstrap\\dist\\css\\bootstrap.css"
+			],
+			[
+				"flight",
+				"WebContent\\views\\pages\\operationReports\\flightSeason.ftl"
+			],
+			[
+				"cha",
+				"WebContent\\public\\js\\chartTemplates.js"
+			],
+			[
+				"flightseas",
+				"WebContent\\public\\js\\operationReports\\flightSeason.js"
+			],
+			[
+				"posi",
+				"WebContent\\views\\pages\\operationReports\\positionDistribution.ftl"
+			],
+			[
+				"position",
+				"WebContent\\public\\js\\operationReports\\positionDistribution.js"
+			],
+			[
+				"daily",
+				"src\\com\\taocares\\sia\\sas\\reports\\dailyReport\\DailyReportAction.java"
+			],
+			[
+				"style",
+				"WebContent\\public\\stylesheets\\style.css"
+			],
+			[
+				"moring",
+				"WebContent\\views\\pages\\operationReports\\morningHandover.ftl"
+			],
+			[
+				"morning",
+				"src\\com\\taocares\\sia\\sas\\reports\\morningHandover\\MorningHandoverAction.java"
+			],
+			[
+				"exe",
+				"WebContent\\public\\js\\operationReports\\executiveRate.js"
+			],
+			[
+				"delay",
+				"WebContent\\public\\js\\operationReports\\delayTime.js"
+			],
+			[
+				"flightsta",
+				"src\\com\\taocares\\sia\\sas\\reports\\flightStatistics\\FlightStatisticsAction.java"
+			],
+			[
+				"flightac",
+				"src\\com\\taocares\\sia\\sas\\reports\\flightInfo\\FlightInfoAction.java"
+			],
+			[
+				"waiting",
+				"WebContent\\views\\pages\\operationReports\\waitingTwoHours.ftl"
+			],
+			[
+				"block",
+				"WebContent\\views\\pages\\operationReports\\blockTime.ftl"
+			],
+			[
+				"depa",
+				"src\\com\\taocares\\sia\\sas\\reports\\departualDelayFlights\\DepartualDelayFlightsAction.java"
+			],
+			[
+				"pla",
+				"WebContent\\public\\js\\operationReports\\planeTypeStats.js"
+			],
+			[
+				"ba",
+				"src\\com\\taocares\\sia\\sas\\reports\\blockTime\\BlockTimeAction.java"
+			],
+			[
+				"mor",
+				"src\\com\\taocares\\sia\\sas\\reports\\morningHandover\\MorningHandoverAction.java"
+			],
+			[
+				"exec",
+				"WebContent\\views\\pages\\operationReports\\executiveRate.ftl"
+			],
+			[
+				"hours",
+				"WebContent\\public\\js\\operationReports\\hourlySortiesStatistic.js"
+			],
+			[
+				"data",
+				"WebContent\\public\\libs\\datatables\\datatables.css"
+			],
+			[
+				"hourlysortiesstatistic",
+				"WebContent\\views\\pages\\operationReports\\hourlySortiesStatistic.ftl"
+			],
+			[
+				"mornin",
+				"WebContent\\public\\js\\operationReports\\morningHandover.js"
+			],
+			[
+				"char",
+				"WebContent\\public\\js\\chartTemplates.js"
+			],
+			[
+				"dela",
+				"WebContent\\views\\pages\\operationReports\\delayTime.ftl"
+			],
+			[
+				"base",
+				"src\\com\\tsystems\\aviation\\szxreports\\baseFlightStatistics\\BaseFlightStatisticsAction.java"
+			],
+			[
+				"static",
+				"src\\com\\tsystems\\aviation\\szxreports\\common\\StaticConfigAction.java"
+			],
+			[
+				"fligin",
+				"WebContent\\public\\js\\operationReports\\flightInfoStatistic.js"
+			],
+			[
+				"de",
+				"WebContent\\public\\js\\operationReports\\delayTime.js"
+			],
+			[
+				"arrd",
+				"src\\com\\tsystems\\aviation\\szxreports\\delayTime\\ArrDelayTimeAction.java"
+			],
+			[
+				"waitin",
+				"WebContent\\views\\pages\\operationReports\\waitingTwoHours.ftl"
+			],
+			[
+				"morningh",
+				"src\\com\\tsystems\\aviation\\szxreports\\morningHandover\\MorningHandoverAction.java"
+			],
+			[
+				"delaytime",
+				"src\\com\\tsystems\\aviation\\szxreports\\delayTime\\DelayTimeAction.java"
+			],
+			[
+				"flightinfo",
+				"WebContent\\public\\js\\operationReports\\flightInfoStatistic.js"
+			],
+			[
+				"ab",
+				"WebContent\\public\\js\\operationReports\\abnormalBridgeStop.js"
+			],
+			[
+				"ins",
+				"WebContent\\views\\pages\\operationReports\\insufficientSchStandingTime.ftl"
+			],
+			[
+				"layout",
+				"WebContent\\public\\js\\layout.js"
+			],
+			[
+				"pos",
+				"WebContent\\public\\js\\operationReports\\positionDistribution.js"
+			],
+			[
+				"layou",
+				"WebContent\\views\\layout.ftl"
+			],
+			[
+				"eas",
+				"WebContent\\public\\libs\\jquery-easyui\\easyui.css"
+			],
+			[
+				"lay",
+				"WebContent\\views\\layout.ftl"
+			],
+			[
+				"init",
+				"WebContent\\public\\libs\\jquery\\src\\core\\init.js"
+			],
+			[
+				"flights",
+				"WebContent\\public\\js\\operationReports\\flightStatistics.js"
+			],
+			[
+				"abno",
+				"WebContent\\views\\pages\\operationReports\\abnormalBridgeStop.ftl"
+			],
+			[
+				"ex",
+				"WebContent\\public\\js\\operationReports\\executiveRate.js"
+			],
+			[
+				"dail",
+				"WebContent\\public\\js\\operationReports\\dailyReport.js"
+			],
+			[
+				"f",
+				"Find Results"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 423.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

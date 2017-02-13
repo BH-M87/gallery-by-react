@@ -9,7 +9,7 @@ import ReactDOM from 'react-dom'
 import imageDatasJson from '../data/imageDatas.json';
 // let imageDatasJson = require('../data/imageDatas.json');
 
-let genImageURL = function(imageDatasArr) {
+let genImageURL = (imageDatasArr) => {
 	imageDatasArr.forEach((singleImageData, index, imageDatasArr) => {
 		singleImageData.imageURL = require('../images/' + singleImageData.fileName);
 	})
@@ -26,15 +26,36 @@ let get30DegRandom = () => (Math.random() > 0.5 ? 1 : -1) * Math.random() * 30;
 
 class ImgFigure extends React.Component {
 	render() {
+		let handleClick = (e) => {
+			// e.stopPropagation();
+			// e.preventDefault();
+			if (this.props.arrange.isCenter) {
+				this.props.inverse();
+			} else {
+				this.props.center();
+			}
+		}
 		let styleObj = this.props.arrange.pos || {};
 		if (this.props.arrange.rotate) {
 			['MozTransform', 'MsTransform', 'WebkitTransform', 'transform'].forEach(value => styleObj[value] = 'rotate(' + this.props.arrange.rotate + 'deg)');
 		}
+		if (this.props.arrange.isCenter) {
+			styleObj.zIndex = 11;
+		}
+
+		let imgFigureClassName = 'img-figure';
+		imgFigureClassName += this.props.arrange.isInverse ? ' is-inverse' : '';
+
 		return (
-			<figure className="img-figure" style={styleObj}>
+			<figure className={imgFigureClassName} style={styleObj} onClick={handleClick}>
 				<img src={this.props.data.imageURL} alt={this.props.data.title}/>
 				<figcaption>
 					<h2 className="img-title">{this.props.data.title}</h2>
+					<div className="img-back" onClick={handleClick}>
+						<p>
+							{this.props.data.desc}
+						</p>
+					</div>
 				</figcaption>
 			</figure>
 		)
@@ -66,11 +87,35 @@ class AppComponent extends React.Component {
 						left: 0,
 						top: 0
 					},
-					rotate: 0
+					rotate: 0,
+					isInverse: false,
+					isCenter: false
 				}*/
 			]
 		};
 	}
+
+	/*
+	 * inverse picture
+	 * @param index the index number of the inverse picture
+	 * @return
+	 *
+	 */
+	inverse(index) {
+		return () => {
+			let imgsArrangeArr = this.state.imgsArrangeArr;
+			imgsArrangeArr[index].isInverse = !imgsArrangeArr[index].isInverse;
+			this.setState({
+				imgsArrangeArr: imgsArrangeArr
+			})
+		}
+	}
+
+	/*
+	 * rearrange all the picture
+	 * @param centerIndex the index number of the center picture
+	 *
+	 */
 	rearrange(centerIndex) {
 		let imgsArrangeArr = this.state.imgsArrangeArr,
 			constant = this.constant,
@@ -91,8 +136,11 @@ class AppComponent extends React.Component {
 			imgsArrangeCenterArr = imgsArrangeArr.splice(centerIndex, 1);
 
 		//first, put the centerIndex picture in the middle of the stage, with rotate
-		imgsArrangeCenterArr[0].pos = centerPos;
-		imgsArrangeCenterArr[0].rotate = centerRotate;
+		imgsArrangeCenterArr[0] = {
+			pos: centerPos,
+			rotate: centerRotate,
+			isCenter: true
+		}
 
 		//get states of the picture on the top
 		topImgSpliceIndex = Math.floor(Math.random() * (imgsArrangeArr.length - topImgNum));
@@ -105,7 +153,8 @@ class AppComponent extends React.Component {
 					top: getRangeRandom(vPosRangeTopY[0], vPosRangeTopY[1]),
 					left: getRangeRandom(vPosRangeX[0], vPosRangeX[1])
 				},
-				rotate: get30DegRandom()
+				rotate: get30DegRandom(),
+				isCenter: false
 			}
 		})
 
@@ -117,7 +166,8 @@ class AppComponent extends React.Component {
 					top: getRangeRandom(hPosRangeY[0], hPosRangeY[1]),
 					left: getRangeRandom(hPosRangeLORX[0], hPosRangeLORX[1])
 				},
-				rotate: get30DegRandom()
+				rotate: get30DegRandom(),
+				isCenter: false
 			}
 		}
 
@@ -130,6 +180,18 @@ class AppComponent extends React.Component {
 		this.setState({
 			imgsArrangeArr: imgsArrangeArr
 		})
+	}
+
+	/*
+	 * center the picture by using rearrange function
+	 * @param index the index number of the center picture
+	 * @return {Function}
+	 *
+	 */
+	center(index) {
+		return () => {
+			this.rearrange(index);
+		}
 	}
 	componentDidMount() {
 		/*scrollWidth：对象的实际内容的宽度，不包边线宽度，会随对象中内容超过可视区后而变大。
@@ -177,10 +239,12 @@ class AppComponent extends React.Component {
 						left: 0,
 						top: 0
 					},
-					rotate: 0
+					rotate: 0,
+					isInverse: false,
+					isCenter: false
 				}
 			}
-			imgFigures.push(<ImgFigure key={index} ref={'imgFigure' + index} data={value} arrange={this.state.imgsArrangeArr[index]}/>)
+			imgFigures.push(<ImgFigure key={index} ref={'imgFigure' + index} data={value} arrange={this.state.imgsArrangeArr[index]} inverse={this.inverse(index)} center={this.center(index)}/>)
 		});
 		return (
 			<section className="stage" ref="stage">
@@ -192,7 +256,7 @@ class AppComponent extends React.Component {
     			</nav>
     	</section>
 		);
-	}
+	};
 }
 
 AppComponent.defaultProps = {};
