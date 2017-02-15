@@ -27,8 +27,9 @@ let get30DegRandom = () => (Math.random() > 0.5 ? 1 : -1) * Math.random() * 30;
 class ImgFigure extends React.Component {
 	render() {
 		let handleClick = (e) => {
-			// e.stopPropagation();
-			// e.preventDefault();
+			//Keep the following two lines in mind, or this event will be triggered twice
+			e.stopPropagation();
+			e.preventDefault();
 			if (this.props.arrange.isCenter) {
 				this.props.inverse();
 			} else {
@@ -53,7 +54,7 @@ class ImgFigure extends React.Component {
 					<h2 className="img-title">{this.props.data.title}</h2>
 					<div className="img-back" onClick={handleClick}>
 						<p>
-							{this.props.data.desc}
+							{this.props.data.description}
 						</p>
 					</div>
 				</figcaption>
