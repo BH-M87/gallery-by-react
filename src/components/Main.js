@@ -25,17 +25,17 @@ let getRangeRandom = (low, high) => Math.floor(Math.random() * (high - low) + lo
 let get30DegRandom = () => (Math.random() > 0.5 ? 1 : -1) * Math.random() * 30;
 
 class ImgFigure extends React.Component {
-	render() {
-		let handleClick = (e) => {
-			//Keep the following two lines in mind, or this event will be triggered twice
-			e.stopPropagation();
-			e.preventDefault();
-			if (this.props.arrange.isCenter) {
-				this.props.inverse();
-			} else {
-				this.props.center();
-			}
+	handleClick(e) {
+		//Keep the following two lines in mind, or this event will be triggered twice
+		e.stopPropagation();
+		e.preventDefault();
+		if (this.props.arrange.isCenter) {
+			this.props.inverse();
+		} else {
+			this.props.center();
 		}
+	}
+	render() {
 		let styleObj = this.props.arrange.pos || {};
 		if (this.props.arrange.rotate) {
 			['MozTransform', 'MsTransform', 'WebkitTransform', 'transform'].forEach(value => styleObj[value] = 'rotate(' + this.props.arrange.rotate + 'deg)');
@@ -48,17 +48,45 @@ class ImgFigure extends React.Component {
 		imgFigureClassName += this.props.arrange.isInverse ? ' is-inverse' : '';
 
 		return (
-			<figure className={imgFigureClassName} style={styleObj} onClick={handleClick}>
+			<figure className={imgFigureClassName} style={styleObj} onClick={this.handleClick.bind(this)}>
 				<img src={this.props.data.imageURL} alt={this.props.data.title}/>
 				<figcaption>
 					<h2 className="img-title">{this.props.data.title}</h2>
-					<div className="img-back" onClick={handleClick}>
+					<div className="img-back" onClick={this.handleClick.bind(this)}>
 						<p>
 							{this.props.data.description}
 						</p>
 					</div>
 				</figcaption>
 			</figure>
+		)
+	}
+}
+
+//Controller unit
+class ControllerUnit extends React.Component {
+	// constructor(){
+
+	// }
+	handleClick(e) {
+		if (this.props.arrange.isCenter) {
+			this.props.inverse();
+		} else {
+			this.props.center();
+		}
+		e.preventDefault();
+		e.stopPropagation();
+	}
+	render() {
+		let controllerUnitClassName = "controller-unit";
+		if (this.props.arrange.isCenter) {
+			controllerUnitClassName += " is-center";
+			if (this.props.arrange.isInverse) {
+				controllerUnitClassName += " is-inverse";
+			}
+		}
+		return (
+			<span className={controllerUnitClassName} onClick={this.handleClick.bind(this)}></span>
 		)
 	}
 }
@@ -246,6 +274,7 @@ class AppComponent extends React.Component {
 				}
 			}
 			imgFigures.push(<ImgFigure key={index} ref={'imgFigure' + index} data={value} arrange={this.state.imgsArrangeArr[index]} inverse={this.inverse(index)} center={this.center(index)}/>)
+			controllerUnits.push(<ControllerUnit key={index} arrange={this.state.imgsArrangeArr[index]} inverse={this.inverse(index)} center={this.center(index)}/>);
 		});
 		return (
 			<section className="stage" ref="stage">

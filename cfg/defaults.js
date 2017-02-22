@@ -40,7 +40,7 @@ function getDefaultModules() {
 			test: /\.(png|jpg|JPG|gif)$/,
 			loader: 'url-loader?limit=8192'
 		}, {
-			test: /\.(woff|woff2)$/,
+			test: /\.(woff|woff2|eot|ttf|svg)$/,
 			loader: 'url-loader?limit=8192'
 		}, {
 			test: /\.(mp4|ogg|svg)$/,
